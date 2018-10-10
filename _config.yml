@@ -9,7 +9,7 @@
 title: Eukire的随笔
 brief-intro: peace and love
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.eukire.com" # the base hostname & protocol for your site
+url: "https://www.eukire.com" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
