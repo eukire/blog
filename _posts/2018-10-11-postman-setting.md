@@ -6,9 +6,6 @@ tags: java postman
 excerpt: 对于有权限限制的系统而言，很多接口需要鉴权，比如用登陆的token放到header里面，下一个接口才能正常访问。那么Postman如何将第一个结果的返回值应用到第二个接口中去？
 ---
 
-## POSTMAN简介
-
-
 > Postman Makes API Development Simple.
 
 ![2018/10/12/1.png](https://github.com/eukire/imgSrc/blob/master/2018/10/12/1.png?raw=true)
