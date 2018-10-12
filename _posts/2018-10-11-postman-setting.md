@@ -8,9 +8,10 @@ excerpt: 对于有权限限制的系统而言，很多接口需要鉴权，比�
 
 ## POSTMAN简介
 
-![2018/10/12/1.png](https://github.com/eukire/imgSrc/blob/master/2018/10/12/1.png?raw=true)
 
 > Postman Makes API Development Simple.
+
+![2018/10/12/1.png](https://github.com/eukire/imgSrc/blob/master/2018/10/12/1.png?raw=true)
 
 [Postman](https://www.getpostman.com/) 一般是开发自测接口用的，因为能团队协作，有的甚至已经当做接口文档标准来使用了。
 
