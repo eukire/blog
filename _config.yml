@@ -60,3 +60,15 @@ plugins: [jekyll-paginate]
 paginate: 5
 port: 4001
 theme: jekyll-theme-slate
+
+#sitemap
+sitemap:
+    filename: "sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
