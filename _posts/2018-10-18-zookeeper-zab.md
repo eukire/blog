@@ -19,7 +19,7 @@ ZAB(Zookeeper Atomic Broadcast)协议是为分布式协调服务Zookeeper专门�
 
 ZAB协议的**核心**是定义了对于那些会改变Zookeeper服务器数据状态的事务请求的处理方式，如下图：
 
-![2018/10/18/1.png](https://github.com/eukire/imgSrc/blob/master/2018/10/18/1.png?raw=true)
+![2018/10/18/1.png](https://www.eukire.com/imgSrc/2018/10/18/1.png)
 
 1. 客户端发送的所有事务请求必须由一个全局唯一的服务器来协调处理（Leader），余下的其他服务器成为Follower服务器。
 2. Leader服务器负责将事务请求转换成一个事务Proposal（提议），并将Proposal分发给集群中的所有Follower服务器。
@@ -34,7 +34,7 @@ ZAB协议的**核心**是定义了对于那些会改变Zookeeper服务器数据�
 
 ZAB协议的消息广播过程使用的是一个院子广播协议，类似于一个二阶段提交过程。
 
-![2018/10/18/2.png](https://github.com/eukire/imgSrc/blob/master/2018/10/18/2.png?raw=true)
+![2018/10/18/2.png](https://www.eukire.com/imgSrc/2018/10/18/2.png)
 
 这边主要说明一下ZAB协议和二阶段提交协议的区别。在ZAB协议的二阶段提交过程中。溢出了中断逻辑。这意味着我们可以在过半的Follower反馈ack后就开始提交事务Proposal，而二阶段提交要求所有的参与者要么全部成功要么全部失败。二阶段提交会产生严重阻塞问题。
 
