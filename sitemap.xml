@@ -50,11 +50,15 @@
     </url>
     <url>
         <loc>https://www.eukire.com/2018/09/12/mysql-connections/</loc>
-        <lastmod>2018-09-13T09:11:14+08:00</lastmod>
+        <lastmod>2018-10-19T10:40:14+08:00</lastmod>
     </url>
     <url>
         <loc>https://www.eukire.com/2018/10/11/postman-setting/</loc>
-        <lastmod>2018-10-12T15:27:41+08:00</lastmod>
+        <lastmod>2018-10-19T10:40:08+08:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.eukire.com/2018/10/18/zookeeper-zab/</loc>
+        <lastmod>2018-10-19T10:47:39+08:00</lastmod>
     </url>
     <url>
         <loc>https://www.eukire.com/archive/</loc>
@@ -74,7 +78,7 @@
     </url>
     <url>
         <loc>https://www.eukire.com/</loc>
-        <lastmod>2018-10-12T15:27:41+08:00</lastmod>
+        <lastmod>2018-10-19T10:47:39+08:00</lastmod>
     </url>
     <url>
         <loc>https://www.eukire.com/css/main.css</loc>
