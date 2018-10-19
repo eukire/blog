@@ -79,7 +79,8 @@ Leader服务器发生崩溃时分为如下场景：
 
 深刻理解ZAB协议，才能更好的理解zookeeper对于分布式系统建设的重要性。以及为什么采用zookeeper就能保证分布式系统中数据最终一致性，服务的高可用性
 
-> 参考文献</br>
-> 《从PAXOS到ZOOKEEPER分布式一致性原理与实践》-倪超</br>
-> [《zookeeper中的ZAB协议理解》](https://blog.csdn.net/junchenbb0430/article/details/77583955)</br>
-> [《Zookeeper基础》](https://www.w3cschool.cn/zookeeper/zookeeper_fundamentals.html)
+> 参考文献
+从PAXOS到ZOOKEEPER分布式一致性原理与实践》-倪超
+[《zookeeper中的ZAB协议理解》](https://blog.csdn.net/junchenbb0430/article/details/77583955)</br>
+[《Zookeeper基础》](https://www.w3cschool.cn/zookeeper/zookeeper_fundamentals.html)
+
