@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Zookeeper的ZAB协议"
+title:  "Zookeeper学习--ZAB协议"
 categories: 学习笔记
-tags:  ZooKeepe
+tags:  ZooKeeper
 excerpt: 读本文之前，您可能需要对分布式一致性协议有一定的了解。</br>有人或许会认为Zookeeper是Paxos算法的一个实现。事实上，Zookeeper并没有完全采用Paxos算法，而是采用了ZAB协议作为其数据一致性的核心算法...
 ---
-
-# Zookeeper的ZAB协议
 
 ## 简介
 
