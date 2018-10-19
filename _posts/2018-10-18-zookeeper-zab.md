@@ -11,6 +11,8 @@ excerpt: 读本文之前，您可能需要对分布式一致性协议有一定�
 
 > 开源学习，自由转载，转载请注明出处！ 
 
+本文主要记录和总结了关于Zookeeper的ZAB协议的一些知识点，希望对大家学习Zookeeper有所帮助。
+
 ## 简介
 
 ZAB(Zookeeper Atomic Broadcast)协议是为分布式协调服务Zookeeper专门设计的一种支持崩溃恢复的院子广播协议。所以ZAB协议并不像Paxos算法那样，是一种通用的分布式一致性算法。ZAB协议的开发设计人员在协议设计之初，并没有要求其具有很好的拓展性，最初也只是为雅虎公司内部那些高吞吐量、低延迟、健壮、简单的分布式系统场景设计的。
@@ -88,3 +90,6 @@ Leader服务器发生崩溃时分为如下场景：
 2. [《zookeeper中的ZAB协议理解》](https://blog.csdn.net/junchenbb0430/article/details/77583955)
 3. [《Zookeeper基础》](https://www.w3cschool.cn/zookeeper/zookeeper_fundamentals.html)
 
+
+-------
+> 自由转载，转载请注明出处！
